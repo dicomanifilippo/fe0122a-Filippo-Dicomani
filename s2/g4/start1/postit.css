@@ -1,0 +1,110 @@
+
+/*viewpoint 1400*/
+#superpostit :nth-child(1) {
+    background-image: linear-gradient(180deg, #fff554 0, #f8d110 50%, #dbae00 100%);
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: rotate(-5deg);
+    
+}
+#superpostit :nth-child(5) {
+    background-image: linear-gradient(180deg, #fff554 0, #f8d110 50%, #dbae00 100%);
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: rotate(-5deg);
+    
+}
+#superpostit :nth-child(7) {
+    background-image: linear-gradient(180deg, #fff554 0, #f8d110 50%, #dbae00 100%);
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: rotate(-5deg);
+    
+}
+#superpostit :nth-child(2) {
+    
+    background-image: linear-gradient(180deg, #9eff4a 0, #70ff4b 25%, #10f84a 50%, #00ea4c 75%, #00df54 100%);
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: rotate(10deg);
+    
+}
+#superpostit :nth-child(4) {
+    
+    background-image: linear-gradient(180deg, #9eff4a 0, #70ff4b 25%, #10f84a 50%, #00ea4c 75%, #00df54 100%);
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: rotate(10deg);
+    
+}
+#superpostit :nth-child(8) {
+    
+    background-image: linear-gradient(180deg, #9eff4a 0, #70ff4b 25%, #10f84a 50%, #00ea4c 75%, #00df54 100%);
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: rotate(10deg);
+    
+}
+#superpostit :nth-child(3) {
+    
+    background-image: linear-gradient(180deg, #ff3cfd 0, #ff2bfb 25%, #eb10f8 50%, #ce00f5 75%, #b100f3 100%);
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: rotate(-10deg);
+    
+}
+#superpostit :nth-child(6) {
+    
+    background-image: linear-gradient(180deg, #ff3cfd 0, #ff2bfb 25%, #eb10f8 50%, #ce00f5 75%, #b100f3 100%);
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: rotate(-10deg);
+    
+}
+#superpostit {
+    background-color: silver;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    font-size: 3em;
+    line-height: 5rem;
+
+}
+.postit:hover{
+height: 10px;
+}

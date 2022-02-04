@@ -1,0 +1,271 @@
+
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3.5rem;
+}
+a {
+    color: #e42424;
+}
+* {
+    box-sizing: border-box;
+}
+p {
+    margin-bottom: 1.3em;
+}
+ul,ol,ul li {
+    margin-bottom: 1.3em;
+}
+section#images{    
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+
+
+
+
+
+
+header {
+    padding: 1em;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.button {
+    
+   text-decoration: none;
+   background-image: linear-gradient(95deg, #a265ff 0, #704cff 25%, #0c33ed 50%, #001fd8 75%, #0017c6 100%);
+border: solid 1px blue;
+color: white;
+}
+button,a.button {
+    
+    text-decoration: none;
+    background-image: linear-gradient(95deg, #a265ff 0, #704cff 25%, #0c33ed 50%, #001fd8 75%, #0017c6 100%);
+ border: solid 1px blue;
+ color: white;
+ }
+main section {
+    padding: 3em 1.3em 1.3em;
+
+}
+main section:not(#banner) {
+    text-align: center;
+}
+header {
+    padding: 1em;
+    background-color: white;
+    position: sticky;
+    z-index: 89;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+    header nav {
+        height: 0;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        
+    }
+
+header nav ul li {
+    list-style-type: none;
+}
+header nav ul li {
+    margin-bottom: 1em;
+}
+
+header nav ul li a:not(.button):hover {
+    color:#e42424;
+    text-decoration: underline;
+}
+
+
+ul.topolino {
+    display: flex;
+    flex-direction: column;
+}
+.lini {
+    color: tomato;
+    font-size: xx-large;
+}
+
+main section {
+    padding: 3em 1.5em 1.5em;
+}
+main section:not(#images) {
+    text-align: center;
+}
+main h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+
+main h2 {
+    font-size: 3rem;
+    margin-bottom: 0.7em;
+    line-height: 1.1;
+}
+main h3 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    line-height: 1;
+}
+
+#images {
+    position: relative;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    
+
+}
+   
+    #images h1 {
+        font-size: 4.5rem;
+        line-height: 1.2;
+        margin-bottom: 0.5em;
+    }
+#images > div {
+    position: relative;
+}
+
+
+
+
+#developer {
+    padding: 5em 1em;
+    background-color: #0c0633;
+    color: white;
+}
+
+
+
+
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 1em;
+}
+caption {
+    font-size: 2.5rem;
+}
+tbody tr:nth-child(odd) {
+    background-color: #d2dce7;
+}
+
+main form {
+    margin-bottom: 2em;
+}
+main label {
+    display: none;
+}
+main input, main textarea {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1.3em;
+}
+main input {
+    height: 40px;
+}
+main input::placeholder, main textarea::placeholder {
+    font-style: italic;
+}
+
+    td::before {
+        content: attr(title);
+        font-weight: bold;
+        min-width: 120px;
+        padding-right: 5px;
+    }
+
+
+
+
+   ul {
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+   }
+    
+  
+  
+    footer h2 {
+        font-size: 2rem;
+        padding-bottom: 1em;
+        line-height: 1;
+    }
+    footer fieldset {
+        display: flex;
+        flex-direction: column;
+    }
+    footer input {
+        font-size: 2rem;
+        padding: 1.2rem 1.4rem;
+        width: 100%;
+    }
+    footer button {
+        width: 100%;
+    }
+    footer{
+        background-color: rgb(232, 212, 174);
+    }
+    /*tablet 820*/
+
+    @media screen and (min-width:820px){
+        .box{
+display: flex;
+flex-direction: row;
+           } 
+       #skills{
+        display: flex;
+        flex-direction: row;  
+       } 
+       #fine{
+        display: flex;
+        flex-direction: row; 
+       }
+       
+       nav {
+           
+        display: flex;
+        flex-direction: row; 
+       }
+    }
+
+/*pc*/
+@media screen and (min-width:1020px){
+    #skills{
+        position: relative;
+        left: 150px;
+        right: 0px;
+    }
+    .box{
+            
+            width: 850px;
+            height: min-content;
+            margin-left: 50px;
+                   } 
+
+header img{
+    margin-left: 200px;
+}
+#images h1 {
+    font-size: 3rem;
+}
+
+}
