@@ -11,22 +11,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
   <link href="./assets/css/reset.css" rel="stylesheet">
-  <link href="./assets/css/stile.css" rel="stylesheet">
+  <link href="./assets/css/style.css"" rel="stylesheet">
 </head>
 
 <body>
 
 <header>
-    <div id="start">
+    <div id="logo">
         <a href="index.html" title="Vai alla home page">
-            <img src="assets/images/logo.png" alt="Logo" width="130" height="40">
+            <img src="assets/images/logo.png" alt="Logo Epicode" width="130" height="40">
         </a>
     </div>
-    <label for="menubutton" id="menumobile"><i class="lni lni-more-alt"></i></label>
-    <input type="checkbox" id="menumobile" />
-    <nav>
+    <label for="toggle" class="menu" ><i class="lni lni-more-alt"></i></label>
+    <input type="checkbox" checked class="menu"id="toggle" />
+    <nav id="main-nav">
         <ul>
-            <li><a href="index.html" title="Vai alla homepage">Home</a></li>
+            <li><a href="principale.html" title="Vai alla homepage">Home</a></li>
             <li><a href="chi-siamo.html" title="Descrizione e mission di Epicode"> Chi siamo</a></li>
             <li><a href="contatti.html" title="Contattaci per info sui corsi">Contatti</a></li>
             <li><a href="registrati.html" class="buttonStyle" title="Registrati per accedere all'area riservata">Registrati</a></li>
@@ -34,29 +34,32 @@
     </nav>
 </header>
 
-<hr>
+
+
 
 <main>
-    <section id="images">
+    <section id="banner">
         <div>
             <h1>Diventa un developer EPICO</h1>
             <p>Diventa un developer EPICO e ti troviamo noi il lavoro. Scommettiamo su di te: paghi metà corso, l'altra metà solo quando inizi a lavorare. </p>
-                <a href="contatti.html" title="Tutti i modi per contattarci" class="button">Chiedi info</a>
+                <button><a href="#" title="chiedi info" class="buttonStyle">Chiedi info</a></button>
         </div>
     </section>
 
-    <hr>
+
+
     
-    <section id="obiettivi">
-        <div class="obiettiviHead">
+    
+    <section id="developer">
+        <div class="diventaredeveloper">
             <h2>Perché diventare un Developer?</h2>
             <p>Non servono laurea e competenze specifiche, solo impegno.<br>Segui il corso online, dove vuoi tu.<br>Il lavoro che andrai a fare è veramente figo.</p>
         </div>
     
-        <div class="box">
+        <div class="blocchiiniziali">
             <div>
                 <span>
-                    <i class="lini lni lni-comments"></i>
+                    <i class="lni lni-comments"></i>
                 </span>
                 <h3>Tutti ti cercheranno</h3>
                 <p>Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di più.</p>
@@ -64,7 +67,7 @@
     
             <div>
                 <span>
-                    <i class="lini lni lni-map-marker"></i>
+                    <i class="lni lni-map-marker"></i>
                 </span>
                 <h3>Potrai lavorare dove vuoi</h3>
                 <p>Non serve lavorare in ufficio per essere creatori di prodotti digitali, e le aziende lo sanno. Lavora da casa, in riva al mare o in montagna.</p>
@@ -72,7 +75,7 @@
         
             <div>
                 <span>
-                    <i class="lini lni lni-consulting"></i>
+                    <i class="lni lni-consulting"></i>
                 </span>
                 <h3>Azienda, Freelance o Startup</h3>
                 <p>Scegli più facilmente la carriera e il rapporto di lavoro che ti piace di più, in qualsiasi momento.</p>
@@ -81,33 +84,33 @@
         
     </section>
 
-    <hr>
     
-    <section id="developer">
+    
+    <section id="fasciablu">
         <h2>Ma chi è il Developer oggi?</h2>
         <p>Se non lo sai te lo diciamo noi: il futuro è dei developer</p>
-        <button><a href="contatti.html" title="Contattaci per informazioni" class="button">Scrivici!</a> </button>
+        <button><a href="#" title="Contattaci" class="buttonStyle">Scrivici!</a> </button>
     </section>
 
-    <hr>
     
-     <section id="skills">
-        <div class="skillsFoto">
-            <img src="assets/images/notebook.jpg" alt="Notebook aziendale" width="426" height="426">
+    
+     <section id="fasciasecondaria">
+        <div class="Fotomac">
+            <img src="assets/images/notebook.jpg" alt="Notebook" width="426" height="426">
         </div>
     
-        <div class="pippo">
-            <ul class="topolino">
+        <div class="secondaria">
+            <ul class="listachi">
                 <li>
-                    <h3><i class="lini lni lni-happy"></i> Chi sarai</h3>
+                    <h3><i class="lni lni-happy"></i> Chi sarai</h3>
                     <p>Il creatore delle app che usi tutti i giorni</p>
                 </li>
                 <li>
-                    <h3><i class="lini lni lni-cool"></i> Chi diventerai</h3>
+                    <h3><i class="lni lni-cool"></i> Chi diventerai</h3>
                     <p>Lo specialista padrone del suo tempo e spazio</p>
                 </li>
                 <li>
-                    <h3><i class="lini lni lni-suspect"></i> Chi non sarai</h3>
+                    <h3><i class="lni lni-suspect"></i> Chi non sarai</h3>
                     <p>Il nerd incollato allo schermo</p>
                 </li>
             </ul>
@@ -116,10 +119,10 @@
      </section>
 </main>
 
-<hr>
+
 
 <footer>
-    <section id="fine">
+    <section id="finale">
         <div>
             <h2>Chi siamo</h2>
             <p>Epicode School nasce con l’obiettivo di rivoluzionare la formazione in ambito tech.</p>
@@ -129,9 +132,9 @@
             <h2>Ti piace ciò che vedi? Condividilo con i tuoi amici!</h2>
             <nav>
                 <ul>
-                    <li><a href="https://facebook.com/" target="_blank"><i class="lini lni lni-facebook-original"></i></a></li>
-                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="lini lni lni-linkedin-original"></i></a></li>
-                    <li><a href="https://instagram.com/" target="_blank"><i class="lini lni lni-instagram-filled"></i></a></li>
+                    <li><a href="https://facebook.com/" target="_blank"><i class="lni lni-facebook-original"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="lni lni-linkedin-original"></i></a></li>
+                    <li><a href="https://instagram.com/" target="_blank"><i class="lni lni-instagram-filled"></i></a></li>
                 </ul>
             </nav>
         </div>
