@@ -1,0 +1,23 @@
+/*VARIABILI*/
+$font-main:10px;
+ $main-widht:85%;
+ $main-padding:20px;
+ $main-margin:30px 40px;
+ $title-color:rgba(120,87,250,0.52);
+ $font-title:$font-main+20px;
+ $font:30px;
+ $font-standard:16px;
+ 
+ $margin-standard:30px;
+ $larghezza-standard:250px;
+ $chiaro: lighten(#dc34b2,30%);
+ $scuro:darken(orange,50%);
+
+
+li{
+    list-style: none
+}
+
+@import'footer';
+@import'function';
+

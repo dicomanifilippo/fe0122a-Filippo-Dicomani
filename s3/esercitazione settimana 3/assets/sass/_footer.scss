@@ -1,0 +1,9 @@
+$back-color:rgb(111, 130, 153);
+$font:25px;
+$grandezza:50%;
+footer{
+    background-color: $back-color;
+    color:#fff;
+    font-size:$font;
+    width:$grandezza;
+}
