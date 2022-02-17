@@ -1,0 +1,64 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #FD746C, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16 12+, Safari 7+ */
+    
+}
+.content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 1vh;
+
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: minmax(120px,auto)repeat(5,100px);
+ 
+}
+.tasto{
+    font-size: 80px;
+}
+.content > button{
+    cursor: pointer;
+    font-size: 2.9rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: lightyellow;
+}
+    .content > button:hover{
+        background-color: wheat; 
+    }
+
+    .display {
+
+
+
+        grid-column:1 / -1;
+        background-color: slategrey;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 30px;
+        word-wrap: break-word;
+        word-break: break-all;
+        margin-top: 70px;
+        font-size: x-large;
+    }
+.uguale {
+    width: 400px;
+}
+
+.content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    grid-template-columns: repeat(4,10px,);
+    grid-template-rows: minmax(10px,auto)repeat(5,100px);
+  
+}
