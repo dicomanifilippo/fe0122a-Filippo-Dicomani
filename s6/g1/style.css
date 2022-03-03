@@ -1,0 +1,17 @@
+p {
+    color: red;
+    margin: 4px;
+}
+
+b{
+color: rosybrown;
+font-size: 18px;
+}
+
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}

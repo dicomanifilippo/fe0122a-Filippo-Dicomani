@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esempio jQuery</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div><button disabled="disabled">1</button> <span></span></div>
+    <div><button>2</button> <span></span></div>
+    <div><button disabled="disabled">3</button><span></span></div>
+    <div class="center">
+        <p></p>
+        <select name="" id="selezione">
+            <option value="">prima</option>
+            <option value="">seconda</option>
+            <option value="">terza</option>
+        </select>
+    </div>
+    <ul class="lista">
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemwnto3 </li>
+    </ul>
+    <h3>okkokokoko</h3>
+    <h4>ijjijjijjjijij</h4>
+<h1>ciao</h1>
+<div>
+    <p>ooo <b>jojjojoj</b> ooo</p>
+    <span>ijijij</span>
+</div>
+<div> 
+    <p class="miaClasse"> altra prova</p>
+    <p id="mioId">questo è un testo di prova</p>
+    <p>prova tre</p>
+</div>
+<form action="">
+    nome: <input type="text" nome="nome" value="alessio">
+    cognome<input type="text" nome="cognome" value="ferrari">
+    <input type="submit"  value="invia">
+</form>
+
+
+<script type="text/javascript" src="./jquery-3.6.0.min.js"></script>
+<script>
+//$(document).ready(function(){
+//document.write("ciao mondo!"); //il testo della pagina viene cambiato
+//});
+
+$(document).ready(function(){
+    $(".miaClasse").css("background-color","red");
+})
+$(document).ready(function(){
+    $("div span").css("background-color","green");
+    $("ul.lista > li").css("background-color","green");
+})
+$(document).ready(function(){       //utilizza jquery nel doc
+    $("button").click(function(){    //selzione l elemento bottone
+        $("p").text("epicode");     //seleziona il p dentro bottone e scrivivi
+    })
+})
+$(document).ready(function(){ 
+    $("button[disabled]").next().text("ciao")       //possiamo usare piu metodi insiem
+});
+
+$(document).ready(function(){
+$("form").submit(function(){
+    alert("form inviato");
+})
+})
+
+</script>
+
+</body>
+</html>
